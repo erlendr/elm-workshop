@@ -1,0 +1,18 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.13.5
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  SNYK-JS-LODASH-450202:
+    - create-elm-app > assets-webpack-plugin > lodash:
+        patched: '2019-07-03T22:34:15.314Z'
+    - create-elm-app > html-webpack-plugin > lodash:
+        patched: '2019-07-03T22:34:15.314Z'
+    - create-elm-app > http-proxy-middleware > lodash:
+        patched: '2019-07-03T22:34:15.314Z'
+    - create-elm-app > webpack-dev-server > http-proxy-middleware > lodash:
+        patched: '2019-07-03T22:34:15.314Z'
+    - elm > request > form-data > async > lodash:
+        patched: '2019-07-03T22:34:15.314Z'
+    - create-elm-app > elm > request > form-data > async > lodash:
+        patched: '2019-07-03T22:34:15.314Z'

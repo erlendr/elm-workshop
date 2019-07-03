@@ -10,7 +10,9 @@
     "make": "elm-make",
     "repl": "elm-repl",
     "reactor": "elm-reactor",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "snyk-protect": "snyk protect",
+    "prepublish": "npm run snyk-protect"
   },
   "repository": {
     "type": "git",
@@ -24,7 +26,8 @@
   "homepage": "https://github.com/ewendel/elm-workshop#readme",
   "dependencies": {
     "create-elm-app": "^0.3.2",
-    "elm": "^0.18.0"
+    "elm": "^0.18.0",
+    "snyk": "^1.189.0"
   },
   "devDependencies": {
     "assets-webpack-plugin": "^3.5.0",
@@ -49,5 +52,6 @@
     "url-loader": "^0.5.7",
     "webpack": "1.14.0",
     "webpack-dev-server": "1.16.2"
-  }
+  },
+  "snyk": true
 }

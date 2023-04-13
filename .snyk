@@ -1,0 +1,20 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.25.0
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  'npm:hoek:20180212':
+    - create-elm-app > elm > request > hawk > hoek:
+        patched: '2023-04-13T11:46:05.132Z'
+    - create-elm-app > elm > request > hawk > boom > hoek:
+        patched: '2023-04-13T11:46:05.132Z'
+    - create-elm-app > elm > request > hawk > sntp > hoek:
+        patched: '2023-04-13T11:46:05.132Z'
+    - create-elm-app > elm > request > hawk > cryptiles > boom > hoek:
+        patched: '2023-04-13T11:46:05.132Z'
+  SNYK-JS-LODASH-567746:
+    - create-elm-app > assets-webpack-plugin > lodash:
+        patched: '2023-04-13T11:46:05.132Z'
+  'npm:tunnel-agent:20170305':
+    - create-elm-app > elm > request > tunnel-agent:
+        patched: '2023-04-13T11:46:05.132Z'

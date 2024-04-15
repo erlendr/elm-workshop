@@ -23,7 +23,7 @@
   },
   "homepage": "https://github.com/ewendel/elm-workshop#readme",
   "dependencies": {
-    "create-elm-app": "^0.3.2",
+    "create-elm-app": "^2.0.0",
     "elm": "^0.18.0"
   },
   "devDependencies": {
